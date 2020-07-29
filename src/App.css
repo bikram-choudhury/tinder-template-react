@@ -1,0 +1,19 @@
+.app {
+    max-width: 375px;
+    margin: 0 auto;
+    height: 99vh;
+}
+
+.app .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+@media (min-width: 420px) {
+    .app {
+        border: 1px solid #d3d3d3a3;
+        border-radius: 5px;
+    }
+}
