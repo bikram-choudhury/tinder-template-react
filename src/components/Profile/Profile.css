@@ -1,0 +1,99 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 100px);
+}
+.profile__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    flex: 1;
+}
+.profile__information .profile__img img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.profile__information .profile__actions {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.profile__information .profile__actions .profile_actionButton .profile_actionIcon {
+    background-color: #e0e0e0;
+}
+.profile__information .profile__actions .profile_actionButton .profile_actionLabel {
+    text-transform: uppercase;
+    color: #d3d3d3;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.profile__information .profile__photoTip button {
+    text-align: left;
+    text-transform: none;
+    padding: 8px 15px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(239, 145, 55, 0.8) 0%, rgba(238, 14, 162, 1) 100%);
+}
+.profile__information .profile__photoTip .MuiButton-iconSizeLarge > *:first-child {
+    font-size: 40px;
+}
+
+.profile__promotionCarousal {
+    height: auto;
+    background-color: #f4f4f4;
+    border: none;
+    text-align: center;
+    padding-bottom: 3vh;
+    padding-top: 5vh;
+}
+.profile__slider .profile__sliderText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile__slider .profile__sliderText .gold {
+    color: #f5b748;
+}
+.profile__slider .profile__sliderText .flash {
+    color: #915dd1;
+}
+.profile__slider .profile__sliderText .room {
+    color: #5a6dd6;
+}
+.profile__slider .profile__sliderText .star {
+    color: #62b4f9;
+}
+.profile__slider .profile__sliderText .key {
+    color: #ec5e6f;
+}
+.profile__slider .profile__sliderText .replay {
+    color: #915dd1;
+}
+.profile__slider .profile__sliderText .favorite {
+    color: #1bea48;
+}
+.profile__slider .profile__sliderText span {
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.promotionBtn {
+    margin-top: 20px;
+}
+.promotionBtn button {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 15em;
+}
+
+.promotionBtn button.promotionBtn__tinderGold {
+    border-color: #f5b748 !important;
+    color: #f5b748 !important;
+}
+.promotionBtn button.promotionBtn__tinderPlus {
+    border-color: #ec5e6f !important;
+    color: #ec5e6f !important;
+}

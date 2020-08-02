@@ -1,7 +1,7 @@
 .app {
     max-width: 375px;
     margin: 0 auto;
-    height: 99vh;
+    height: 100vh;
 }
 
 .app .wrapper {
@@ -15,5 +15,6 @@
     .app {
         border: 1px solid #d3d3d3a3;
         border-radius: 5px;
+        height: 99vh;
     }
 }

@@ -11,7 +11,7 @@ export default function Header({ backButton }) {
     const history = useHistory();
 
     return (
-        <div className="header">
+        <div className={`header ${backButton ? 'bottom-border' : ''}`}>
             {
                 backButton ? (
                     <IconButton onClick={() => history.replace(backButton)}>
@@ -21,9 +21,11 @@ export default function Header({ backButton }) {
                         />
                     </IconButton>
                 ) : (
-                        <IconButton>
-                            <PersonIcon className="header__icon" fontSize="large" />
-                        </IconButton>
+                        <Link to="/profile">
+                            <IconButton>
+                                <PersonIcon className="header__icon" fontSize="large" />
+                            </IconButton>
+                        </Link>
                     )
             }
 
